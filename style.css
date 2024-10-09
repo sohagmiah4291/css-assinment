@@ -50,7 +50,7 @@ nav{
     border-radius: 80px;
 }
 
-/* offer section start  */
+/* bannert section start  */
 .banner-section{
    background-image: url('images/Rectangle 1.png');
    background-repeat: no-repeat;
@@ -64,6 +64,7 @@ nav{
     flex-direction: column;
 }
 
+/* offer section start  */
 .offer-container{
     width: 700px;
     height: 250px;
@@ -318,11 +319,6 @@ nav{
 
 
 
-/* @media screen and (min-width: 768px) and (max-width: 1199px) */
-
-
-
-
 
 
 
@@ -352,6 +348,18 @@ nav{
         /* background-image: none; */
         background-color: white;
      }
+
+     .offer-container{
+        width: 100%px;
+        height: 250px;
+        background-color: #f9f2f2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 10px;
+    }
 
     .icon-section-container{
     
@@ -528,3 +536,4 @@ nav{
 }
 
 
+}
